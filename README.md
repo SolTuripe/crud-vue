@@ -1,23 +1,12 @@
-# crudvue
+# Crud-Vue
+This project is about building a to-do list app using Vue JS. Vue.js is an open-source front end JavaScript framework for building user interfaces and single-page applications.
 
 ## Project setup
 ```
+git clone https://github.com/SolTuripe/crud-vue.git
+cd crudvue
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
 
 ### Customize configuration
