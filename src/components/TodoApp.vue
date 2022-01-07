@@ -39,7 +39,7 @@
               :class="{
                 'text-danger': task.status === 'to-do',
                 'text-warning': task.status === 'in-progress',
-                'text-success': task.status === 'finished'
+                'text-success': task.status === 'finished',
               }"
               >{{ firstCharUpper(task.status) }}</span
             >
@@ -118,10 +118,9 @@ export default {
       this.tasks[index].status = this.availableStatuses[newIndex];
     },
 
-    firstCharUpper(str){
+    firstCharUpper(str) {
       return str.charAt(0).toUpperCase() + str.slice(1);
-    }
-
+    },
   },
 };
 </script>
